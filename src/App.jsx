@@ -37,7 +37,7 @@ function App() {
           {
             tasks.map((ele,index)=>{
               return(<div className="task">
-                {index}:{ele} 
+                {ele} 
                 <button onClick={()=>{deleteTask(index)}}>Done</button>
               </div>)
             })
