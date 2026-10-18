@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [tasks, setTasks] = useState(["Gym", "Yoga", "Meditation"]);
+  const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState("");
   
   const addNewTask = ()=>{
